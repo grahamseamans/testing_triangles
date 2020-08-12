@@ -2,7 +2,6 @@
 
 #include <iostream>
 
-
 bool is_triangle()
 {
     double distances[3];
@@ -18,12 +17,13 @@ bool is_triangle()
     distances[2] = 1 - larger;
 
     return !((distances[0] > 0.5) + (distances[1] > 0.5) + (distances[2] > 0.5));
+    
+    //banana test
 }
 
 
 int main()
 {
-
     int reps = 10000000;
     int triangles = 0;
 
@@ -32,5 +32,5 @@ int main()
         triangles += is_triangle();
     }
 
-    std::cout << triangles / double(reps);
+    std::cout << triangles / (double)reps;
 }
