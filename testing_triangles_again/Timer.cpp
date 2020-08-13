@@ -1,3 +1,5 @@
+// Graham Seamans
+
 #include "Timer.h"
 
 Timer::Timer()

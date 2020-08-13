@@ -1,6 +1,5 @@
 // Graham Seamans
 
-#include <time.h>
 #include <iostream>
 #include "Timer.h"
 
